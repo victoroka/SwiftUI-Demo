@@ -64,11 +64,11 @@
 				842E26C722D7D0D700BD27DE /* SceneDelegate.swift */,
 				842E26C922D7D0D700BD27DE /* ContentView.swift */,
 				842E26D922D7D46D00BD27DE /* CircleImage.swift */,
+				842E26DB22D7D54000BD27DE /* MapView.swift */,
 				842E26CB22D7D0DA00BD27DE /* Assets.xcassets */,
 				842E26D022D7D0DA00BD27DE /* LaunchScreen.storyboard */,
 				842E26D322D7D0DA00BD27DE /* Info.plist */,
 				842E26CD22D7D0DA00BD27DE /* Preview Content */,
-				842E26DB22D7D54000BD27DE /* MapView.swift */,
 			);
 			path = "SwiftUI Demo";
 			sourceTree = "<group>";
