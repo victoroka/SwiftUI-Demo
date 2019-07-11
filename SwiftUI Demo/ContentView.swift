@@ -8,15 +8,23 @@
 
 import SwiftUI
 
+// MARK: - Main ContentView
 struct ContentView : View {
     var body: some View {
         VStack(alignment: .leading) {
             Text("Turtle Rock")
                 .font(.title)
-            Text("Josua Tree National Park")
-                .font(.subheadline)
-                .color(.secondary)
-        }
+            
+            HStack {
+                Text("Josua Tree National Park")
+                    .font(.subheadline)
+                    .color(.secondary)
+                // The spacer object takes all the space that it can by default
+                Spacer()
+                Text("California")
+                    .font(.subheadline)
+            }
+        }.padding()
     }
 }
 
